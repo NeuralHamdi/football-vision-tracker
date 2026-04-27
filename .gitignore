@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# YOLO Generated Files
+runs/
+training/runs/
+
+# Large Model Weights
+*.pt
+
+# Media and Datasets
+input_video/
+output_video/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+training/football-players-detection-1/
+
+# Cache and Temporary Files
+stubs/
+*.pkl
+__pycache__/
+*.pyc
+
+# Temporary Debug Scripts
+debug_error.py
+reproduce_error.py
